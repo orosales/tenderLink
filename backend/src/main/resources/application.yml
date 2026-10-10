@@ -1,0 +1,48 @@
+server:
+  port: ${SERVER_PORT:8090}
+
+spring:
+  application:
+    name: tenderready
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  flyway:
+    schemas: ${DB_SCHEMA:tender}
+    default-schema: ${DB_SCHEMA:tender}
+    create-schemas: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        default_schema: ${DB_SCHEMA:tender}
+        jdbc.time_zone: UTC
+
+tenderready:
+  demo-mode: ${DEMO_MODE:true}
+  cors-origins: ${CORS_ORIGINS:http://localhost:5173}
+  demo-tender-closing-days: ${DEMO_TENDER_CLOSING_DAYS:21}
+  ai:
+    mode: ${AI_MODE:fixture}
+    model: ${ANTHROPIC_MODEL:claude-opus-5-5}
+    api-key: ${ANTHROPIC_API_KEY:}
+    timeout-seconds: ${AI_TIMEOUT_SECONDS:180}
+    max-document-chars: ${AI_MAX_DOCUMENT_CHARS:120000}
+  feed:
+    url: ${TENDER_FEED_URL:https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv}
+    schedule-enabled: ${TENDER_IMPORT_SCHEDULE_ENABLED:false}
+    schedule-cron: ${TENDER_IMPORT_CRON:0 30 6 * * *}
+    timeout-seconds: ${TENDER_FEED_TIMEOUT_SECONDS:120}
+    max-bytes: ${TENDER_FEED_MAX_BYTES:104857600}
+  documents:
+    timeout-seconds: ${DOCUMENT_TIMEOUT_SECONDS:20}
+    max-bytes: ${DOCUMENT_MAX_BYTES:15728640}
+    # Optional reviewed public document per CanadaBuys reference number: "REF-1=https://...,REF-2=https://..."
+    reviewed-urls: ${REVIEWED_DOCUMENT_URLS:}
+
+logging:
+  level:
+    org.hibernate.orm.deprecation: error

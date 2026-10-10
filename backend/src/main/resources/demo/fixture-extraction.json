@@ -1,0 +1,170 @@
+{
+  "documentSha256": "3642749d48ace81e7b7156b6b7f25d64289f8cb8c659a2fe5a04e6d70f8cc44c",
+  "tenderSourceId": "DEMO-NS-CLN-0426",
+  "extraction": {
+    "documentComplete": true,
+    "documentCompletenessNote": "Bundled fictional solicitation document with all sections present.",
+    "scopeSummary": "Routine commercial office cleaning at three federal offices in Halifax, Truro and Kentville, Nova Scotia, for a two-year initial term. Includes nightly cleaning, waste and recycling removal, floor care, and supply of products and equipment.",
+    "deadlines": [
+      {
+        "label": "Questions due",
+        "value": "Seven calendar days before the closing date",
+        "sourceReference": "Section 6.1",
+        "sourceExcerpt": "Questions must be submitted in writing no later than seven calendar days before the closing date."
+      },
+      {
+        "label": "Bid closing",
+        "value": "As stated in the tender notice",
+        "sourceReference": "Section 6.2",
+        "sourceExcerpt": "The closing date and time are stated in the tender notice. Late proposals will not be accepted."
+      }
+    ],
+    "requirements": [
+      {
+        "id": "REQ-01",
+        "description": "Provide 60 weekly labour hours of commercial office cleaning in Halifax",
+        "category": "DELIVERY_CONSTRAINT",
+        "kind": "CAPACITY",
+        "appliesTo": "TEAM_COMBINED",
+        "area": "Halifax",
+        "service": "commercial office cleaning",
+        "weeklyHours": 60,
+        "qualificationName": "",
+        "matchTerms": [
+          "office cleaning",
+          "halifax"
+        ],
+        "sourceReference": "Section 2.1",
+        "sourceExcerpt": "Halifax: The contractor must provide 60 labour hours weekly of commercial office cleaning at the Halifax office"
+      },
+      {
+        "id": "REQ-02",
+        "description": "Provide 20 weekly labour hours of commercial office cleaning in Truro",
+        "category": "DELIVERY_CONSTRAINT",
+        "kind": "CAPACITY",
+        "appliesTo": "TEAM_COMBINED",
+        "area": "Truro",
+        "service": "commercial office cleaning",
+        "weeklyHours": 20,
+        "qualificationName": "",
+        "matchTerms": [
+          "office cleaning",
+          "truro"
+        ],
+        "sourceReference": "Section 2.2",
+        "sourceExcerpt": "Truro: The contractor must provide 20 labour hours weekly of commercial office cleaning at the Truro office"
+      },
+      {
+        "id": "REQ-03",
+        "description": "Provide 15 weekly labour hours of commercial office cleaning in Kentville",
+        "category": "DELIVERY_CONSTRAINT",
+        "kind": "CAPACITY",
+        "appliesTo": "TEAM_COMBINED",
+        "area": "Kentville",
+        "service": "commercial office cleaning",
+        "weeklyHours": 15,
+        "qualificationName": "",
+        "matchTerms": [
+          "office cleaning",
+          "kentville"
+        ],
+        "sourceReference": "Section 2.3",
+        "sourceExcerpt": "Kentville: The contractor must provide 15 labour hours weekly of commercial office cleaning at the Kentville office"
+      },
+      {
+        "id": "REQ-04",
+        "description": "Every proposed delivery company, including subcontractors, must evidence a valid CleanSafe Level 2 certification",
+        "category": "MANDATORY_ELIGIBILITY",
+        "kind": "QUALIFICATION",
+        "appliesTo": "EACH_DELIVERY_COMPANY",
+        "area": "",
+        "service": "",
+        "weeklyHours": 0,
+        "qualificationName": "CleanSafe Level 2",
+        "matchTerms": [
+          "cleansafe"
+        ],
+        "sourceReference": "Section 3.1",
+        "sourceExcerpt": "Each proposed delivery company, including any subcontractor, must provide evidence of a valid CleanSafe Level 2 certification with its proposal."
+      },
+      {
+        "id": "REQ-05",
+        "description": "The bidder (prime contractor) must hold commercial general liability insurance of at least $2,000,000",
+        "category": "MANDATORY_ELIGIBILITY",
+        "kind": "QUALIFICATION",
+        "appliesTo": "LEAD_BIDDER",
+        "area": "",
+        "service": "",
+        "weeklyHours": 0,
+        "qualificationName": "Commercial general liability insurance",
+        "matchTerms": [
+          "liability insurance"
+        ],
+        "sourceReference": "Section 3.2",
+        "sourceExcerpt": "The bidder must hold commercial general liability insurance of at least $2,000,000 and provide a certificate of insurance before contract award."
+      },
+      {
+        "id": "REQ-06",
+        "description": "Subcontractors must be named in the proposal and approved in writing by the buyer before award",
+        "category": "MANDATORY_ELIGIBILITY",
+        "kind": "PARTNERING",
+        "appliesTo": "LEAD_BIDDER",
+        "area": "",
+        "service": "",
+        "weeklyHours": 0,
+        "qualificationName": "",
+        "matchTerms": [],
+        "sourceReference": "Section 4.1",
+        "sourceExcerpt": "Subcontracting is permitted only where the bidder names each proposed subcontractor in its proposal and the Contracting Authority provides written approval of each named subcontractor before contract award."
+      },
+      {
+        "id": "REQ-07",
+        "description": "Use of certified green cleaning products (up to 20 points)",
+        "category": "SCORED_CRITERION",
+        "kind": "OTHER",
+        "appliesTo": "LEAD_BIDDER",
+        "area": "",
+        "service": "",
+        "weeklyHours": 0,
+        "qualificationName": "",
+        "matchTerms": [
+          "green cleaning",
+          "green"
+        ],
+        "sourceReference": "Section 5.1",
+        "sourceExcerpt": "Use of certified green cleaning products: up to 20 points."
+      },
+      {
+        "id": "REQ-08",
+        "description": "Relevant experience cleaning office buildings in the last five years (up to 30 points)",
+        "category": "SCORED_CRITERION",
+        "kind": "OTHER",
+        "appliesTo": "LEAD_BIDDER",
+        "area": "",
+        "service": "",
+        "weeklyHours": 0,
+        "qualificationName": "",
+        "matchTerms": [
+          "office buildings",
+          "offices"
+        ],
+        "sourceReference": "Section 5.2",
+        "sourceExcerpt": "Relevant experience cleaning office buildings in the last five years: up to 30 points."
+      }
+    ],
+    "partnershipPermission": "PERMITTED_WITH_CONDITIONS",
+    "partnershipArrangement": "Subcontracting",
+    "partnershipSourceReference": "Section 4.1",
+    "partnershipExcerpt": "Subcontracting is permitted only where the bidder names each proposed subcontractor in its proposal and the Contracting Authority provides written approval of each named subcontractor before contract award.",
+    "partnershipConditions": [
+      "Each subcontractor must be named in the proposal",
+      "Buyer must approve each named subcontractor in writing before award",
+      "The bidder remains solely responsible as prime contractor"
+    ],
+    "jointVentureNote": "The solicitation does not address joint ventures or consortium bids (Section 4.3); subcontracting permission does not imply joint-venture permission.",
+    "unknowns": [
+      "Buyer approval of any named subcontractor is not yet obtained",
+      "Whether a joint venture would be accepted is not addressed"
+    ]
+  }
+}
